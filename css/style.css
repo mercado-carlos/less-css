@@ -8,6 +8,11 @@ body {
   background: #eee;
   line-height: 2rem;
 }
+h1,
+h3 {
+  border-top: 1px dotted #000;
+  border-bottom: 2px solid #000;
+}
 .primary-text {
   color: #3b5998;
 }
@@ -18,4 +23,9 @@ body {
 }
 .primary-btn {
   background: #3b5998;
+  color: #fff;
+}
+.bordered {
+  border-top: 1px dotted #000;
+  border-bottom: 2px solid #000;
 }

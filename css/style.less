@@ -17,6 +17,11 @@ body {
     line-height: @line-height;
 }
 
+h1,
+h3 {
+    .bordered;
+}
+
 .primary-text {
     color: @primary-color;
 }
@@ -28,4 +33,10 @@ body {
 
 .primary-btn:extend(.btn) {
     background: @primary-color;
+    color: #fff;
+}
+
+.bordered {
+    border-top: 1px dotted #000;
+    border-bottom: 2px solid #000;
 }
