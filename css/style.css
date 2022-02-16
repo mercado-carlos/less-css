@@ -6,4 +6,11 @@
 }
 body {
   background: #eee;
+  line-height: 2rem;
+}
+.primary-text {
+  color: #3b5998;
+}
+.primary-btn {
+  background: #3b5998;
 }
